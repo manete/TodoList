@@ -75,7 +75,7 @@ ulFiltros.addEventListener('click', (event) => {
     if (!filtro) { return; }
 
     anchorFiltro.forEach(elem => elem.classList.remove('selected'));
-    event.target.cgit remote - vlassList.add('selected');
+    event.target.classList.add('selected');
 
 
     for (const element of divTodoList.children) {
